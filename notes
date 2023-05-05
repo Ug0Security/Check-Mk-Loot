@@ -1,0 +1,3 @@
+check-mk may leak info on port 6556
+
+nmap  iprange -p 6556 -v | grep "Discovered open port" 
